@@ -9,7 +9,8 @@
  
  <!--<dependency id="GapTeam.Plugin.SqlStorage" url="https://github.com/giriiton/GapTeam.Plugin.SqlStorage.git"/>-->
  <dependency id="GapTeam.Plugin.Nwinfo" url="https://github.com/giriiton/GapTeam.Plugin.Nwinfo.git" />
-<dependency id="cordova-sqlite-evfree" url="https://github.com/litehelpers/Cordova-sqlite-enterprise-free.git" />
+ <dependency name="io.litehelpers.cordova.sqlite" spec="0.7.6" source="pgb" />
+<!--<dependency id="cordova-sqlite-evfree" url="https://github.com/litehelpers/Cordova-sqlite-enterprise-free.git" />-->
 	<!-- <dependency id="cordova-sqlite-storage" version="0.7.14" />
 	<dependency id="cordova-plugin-network-information" version="1.1.0" /> -->
   <js-module src="www/mqtt.js" name="mqtt">
